@@ -23,10 +23,10 @@ public class Main {
         System.out.println("your age?");
         int age = scanner.nextInt();
 
-        //Person person1 = new Person(name, surname, height, age);
-        //System.out.println("dati: " + " " + person1.getName() + " " + person1.getSurname() + " " + person1.getHeight() + " " + person1.getAge());
+        Person person1 = new Person(name, surname, height, age);
+        System.out.println("dati: " + " " + person1.getName() + " " + person1.getSurname() + " " + person1.getHeight() + " " + person1.getAge());
 
-        System.out.println("dati: " + " " + name + " " + surname + " " + height + " " + age);
+        //System.out.println("dati: " + " " + name + " " + surname + " " + height + " " + age);
     }
 }
 /**
